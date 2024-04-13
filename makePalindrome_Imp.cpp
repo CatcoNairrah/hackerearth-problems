@@ -42,7 +42,7 @@ int main()
             int oddCt = 0;
             for (int i = 0; i < 26; i++)
             {
-                int charCt = hsh[r][i] - hsh[l-1][i]
+                int charCt = hsh[r][i] - hsh[l-1][i];
                 if(charCt %2 != 0) oddCt++;
             }
             if (oddCt > 1)
